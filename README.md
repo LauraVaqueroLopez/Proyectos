@@ -68,7 +68,7 @@ A medida que avance el curso y mi experiencia, este repositorio crecerá con nue
 Si tienes preguntas, comentarios o simplemente quieres conectar, ¡no dudes en escribirme!  
 - **Email:** laura2005vaquero@gmail.com 
 - **LinkedIn:** [Laura Vaquero](www.linkedin.com/in/laura-yang-vaquero-lópez-aspirante-a-desarrollador-web)  
-- **GitHub:** ([Mi repositorio](https://github.com/LauraVaqueroLopez/Proyectos.git))  
+- **GitHub:** [Mi repositorio](https://github.com/LauraVaqueroLopez/Proyectos.git)
 
 ---
 
