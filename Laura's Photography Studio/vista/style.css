@@ -11,7 +11,7 @@ body {
   background: #101010;
 }
 
-/* (desplazamiento a la derecha,desplazamiento hacia abajo,difuminado,ancho)*/
+/* (desplazamiento a la derecha,desplazamiento hacia abajo,cantidad de difuminado,ancho)*/
 
 .dropdown-menu{
   box-shadow: -3px 2px 16px 0px rgb(178, 222, 196);
