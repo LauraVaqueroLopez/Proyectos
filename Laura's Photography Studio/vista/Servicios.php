@@ -6,7 +6,6 @@ if (!isset($_SESSION['usuario'])) {
     header("Location: loginhtml.php");
     exit();
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +22,6 @@ if (!isset($_SESSION['usuario'])) {
   <header class="bg-dark text-white text-center py-4">
     <h1>Laura's Photography Studio</h1>
     <p>Tu socio de confianza en soluciones fotográficas</p>
-
   </header>
 
   <nav class="bg-success navbar navbar-expand-lg navbar-dark">
@@ -67,7 +65,7 @@ if (!isset($_SESSION['usuario'])) {
           <li class="list-group-item"><a href="menu.php">Inicio</a></li>
           <li class="list-group-item"><a href="quienesomos.php">Quiénes Somos</a></li>
           <li class="list-group-item">
-            <a href="Servicios.html">Servicios</a>
+            <a href="Servicios.php">Servicios</a>
             <ul class="list-group">
               <li class="list-group-item"><a href="https://www.google.com/?hl=es">Bodas y Eventos</a></li>
               <li class="list-group-item"><a href="https://www.google.com/?hl=es">Sesión Personalizada</a></li>

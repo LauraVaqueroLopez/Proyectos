@@ -6,7 +6,6 @@ if (!isset($_SESSION['usuario'])) {
     header("Location: loginhtml.php");
     exit();
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -64,7 +63,7 @@ if (!isset($_SESSION['usuario'])) {
         <h3>Mapa del Sitio</h3>
         <ul class="list-group">
           <li class="list-group-item"><a href="menu.php">Inicio</a></li>
-          <li class="list-group-item"><a href="quienesomos.html">Quiénes Somos</a></li>
+          <li class="list-group-item"><a href="quienesomos.php">Quiénes Somos</a></li>
           <li class="list-group-item">
             <a href="Servicios.php">Servicios</a>
             <ul class="list-group">
@@ -77,7 +76,6 @@ if (!isset($_SESSION['usuario'])) {
         </ul>
       </aside>
 
-      <!-- Contenido principal -->
       <section class="col-md-8 principal-container">
         <h3>Quiénes Somos</h3>
         <p>
@@ -93,7 +91,7 @@ if (!isset($_SESSION['usuario'])) {
     <p>2024 Laura's Photography Studio.</p>
     <nav>
       <a href="menu.php" class="enlace-footer mx-2">Inicio</a>
-      <a href="quienesomos.html" class="enlace-footer mx-2">Quiénes Somos</a>
+      <a href="quienesomos.php" class="enlace-footer mx-2">Quiénes Somos</a>
       <a href="Servicios.php" class="enlace-footer mx-2">Servicios</a>
       <a href="contacto.php" class="enlace-footer mx-2">Contacto</a>
 

@@ -78,7 +78,6 @@ if (!isset($_SESSION['carrito'])) {
                     </ul>
                 </li>
                 <li class="list-group-item"><a href="contacto.php">Contacto</a></li>
-
             </ul>
         </aside>
 

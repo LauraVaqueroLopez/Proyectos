@@ -19,7 +19,6 @@
         <button type="button">Registrarse</button>
     </a>
 
-
     <?php
     if (isset($_SESSION['aviso'])) {
         echo '<span class="aviso">' . htmlspecialchars($_SESSION['aviso']) . '</span>';
