@@ -99,7 +99,7 @@ if (!isset($_SESSION['usuario'])) {
                     <td>Bodas y Eventos</td>
                     <td>500€</td>
                     <td>4 horas</td>
-                    <td>125€/h</td>
+                    <td>150€/h</td>
                 </tr>
                 <tr>
                     <td>Sesión Personalizada</td>
