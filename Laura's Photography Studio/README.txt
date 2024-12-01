@@ -17,8 +17,8 @@ Este proyecto es un sitio web diseñado para un estudio de fotografía profesion
 - Quiénes Somos: Descripción de la filosofía y objetivos del estudio.
 - Servicios: Detalle de los servicios de fotografía, incluyendo precios y duración.
 - Contacto: Información para conectar con el estudio.
+- Sesión carrito de la compra.
 - Sección de compra (próximamente): Listado de los productos disponibles para su compra.
-- Sesión carrito de la compra (próximamente).
 - Apartado de reseñas y valoraciones (próximamente).
 
 🎨 Funcionalidades destacadas
