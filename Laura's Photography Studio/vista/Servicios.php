@@ -17,7 +17,7 @@ if (!isset($_SESSION['usuario'])) {
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="d-flex flex-column">
+<body class="d-flex flex-column min-vh-100">
 
   <header class="bg-dark text-white text-center py-4">
     <h1>Laura's Photography Studio</h1>
@@ -89,7 +89,7 @@ if (!isset($_SESSION['usuario'])) {
               <img src="img/bodas.jpg" class="card-img-top" alt="Bodas y Eventos">
               <div class="card-body">
                 <h5 class="card-title">Bodas y Eventos</h5>
-                <p class="card-text">Fotografía para bodas, aniversarios y eventos especiales.</p>
+                <p class="card-text">Bodas, aniversarios y eventos especiales.</p>
                 <a href="https://www.google.com/?hl=es" class="btn btn-success">Saber más</a>
               </div>
             </div>
@@ -99,7 +99,7 @@ if (!isset($_SESSION['usuario'])) {
               <img src="img/personalizada.jpg" class="card-img-top" alt="Sesión Personalizada">
               <div class="card-body">
                 <h5 class="card-title">Sesión Personalizada</h5>
-                <p class="card-text">Sesiones individuales o familiares en interiores o exteriores.</p>
+                <p class="card-text">Sesiones personalizadas en interiores o exteriores.</p>
                 <a href="https://www.google.com/?hl=es" class="btn btn-success">Saber más</a>
               </div>
             </div>
@@ -109,7 +109,7 @@ if (!isset($_SESSION['usuario'])) {
               <img src="img/artistica.jpg" class="card-img-top" alt="Sesiones Artísticas">
               <div class="card-body">
                 <h5 class="card-title">Sesiones Artísticas</h5>
-                <p class="card-text">Explora la creatividad con sesiones temáticas y artísticas.</p>
+                <p class="card-text">Explora la creatividad con Sesiones temáticas y artísticas.</p>
                 <a href="https://www.google.com/?hl=es" class="btn btn-success">Saber más</a>
               </div>
             </div>
