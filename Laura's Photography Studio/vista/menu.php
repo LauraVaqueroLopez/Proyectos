@@ -10,7 +10,6 @@ if (!isset($_SESSION['usuario'])) {
 if (!isset($_SESSION['carrito'])) {
     $_SESSION['carrito'] = [];
 }
-
 ?>
 
 <!DOCTYPE html>
