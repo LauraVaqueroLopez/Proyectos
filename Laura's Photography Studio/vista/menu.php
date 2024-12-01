@@ -101,6 +101,7 @@ if (!isset($_SESSION['usuario'])) {
                     <td>4 horas</td>
                     <td>150€/h</td>
                 </tr>
+
                 <tr>
                     <td>Sesión Personalizada</td>
                     <td>190€</td>
