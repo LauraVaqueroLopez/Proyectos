@@ -1,0 +1,32 @@
+
+CREATE DATABASE IF NOT EXISTS estudio;
+USE estudio;
+
+CREATE TABLE Cliente (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    nickname VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    telefono VARCHAR(15),
+    domicilio VARCHAR(100)
+);
+
+CREATE TABLE Producto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion TEXT,
+    precio DECIMAL(10, 2) NOT NULL,
+    cliente_id INT,
+    FOREIGN KEY (cliente_id) REFERENCES Cliente(id)
+);
+
+INSERT INTO Cliente (nombre, apellido, nickname, password, telefono, domicilio) VALUES
+('Carlos', 'Gonzalez', 'carlosg', 'pass123', '123456789', 'Calle 123'),
+('Ana', 'Perez', 'anap', 'pass456', '987654321', 'Avenida 456'),
+('Luis', 'Martinez', 'luism', 'pass789', '555555555', 'Boulevard 789');
+
+INSERT INTO Producto (nombre, descripcion, precio, cliente_id) VALUES
+('Camara', 'Camara profesional', 1200.00, 3),
+('Impresora', 'Impresora multifuncional', 200.00, NULL);
+
