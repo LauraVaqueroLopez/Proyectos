@@ -90,7 +90,7 @@ $controlProducto = new ControlProducto();
                             <td><?php echo $producto->getNombre(); ?></td>
                             <td><?php echo $cantidad; ?></td>
                             <td>
-                                <form action="../Controlador/ControlEliminarDelCarrito.php" method="POST"">
+                                <form action="../controlador/ControlEliminarDelCarrito.php" method="POST"">
                                 <input type="hidden" name="id" value="<?php echo $id_producto; ?>">
                                 <button type="submit">Eliminar</button>
                                 </form>
