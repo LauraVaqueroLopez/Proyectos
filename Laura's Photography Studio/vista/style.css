@@ -1,0 +1,84 @@
+header{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+  font-family:cursive;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #101010;
+}
+
+/* (desplazamiento a la derecha,desplazamiento hacia abajo,difuminado,ancho)*/
+
+.dropdown-menu{
+  box-shadow: -3px 2px 16px 0px rgb(178, 222, 196);
+}
+
+/*Controla el color de fondo cuando pasas el ratón por encima*/
+.dropdown-menu a:hover {
+  background-color: rgb(237, 252, 231);
+  color: #101010;
+}
+
+/*cotrola el color de la letra del link cuando haces click*/
+.dropdown-menu a:focus {
+  color: #101010;
+}
+
+.nav-link img{
+  width: 30px;
+  height: 30px;
+}
+
+main {
+  color: #fff;
+}
+
+.aside-map{
+  text-align: left;
+}
+
+.list-group-item a{
+  text-decoration: none;
+  color: black;
+}
+
+.imagen-carrusel{
+  width: 100%;
+}
+
+.carousel-item figcaption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+.carousel-container{
+  margin-left: 3%;
+}
+
+.principal-container-inicio{
+  margin-left: 3%;
+}
+
+.enlace-footer{
+  color: white;
+  padding: 10px;
+}
+
+.instagram, .facebook{
+  width: 60px;
+  height: 33px;
+  text-align: right;
+}
+
+.media-x{
+  width: 40px;
+}
